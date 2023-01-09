@@ -29,13 +29,13 @@ echo $password
 exit
 ```
 
-## Delete pv
+## Delete secret
 
 ```$bash
 kubectl delete -f secrets.yaml
 ```
 
-## Delete pvc
+## Delete pod
 
 ```$bash
 kubectl delete -f pod.yaml --force --grace-period=0

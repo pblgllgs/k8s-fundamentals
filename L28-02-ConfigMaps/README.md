@@ -28,13 +28,13 @@ echo $STATE
 exit
 ```
 
-## Delete pv
+## Delete configMap
 
 ```$bash
 kubectl delete -f cm.yaml
 ```
 
-## Delete pvc
+## Delete pod
 
 ```$bash
 kubectl delete -f pod.yaml --force --grace-period=0
